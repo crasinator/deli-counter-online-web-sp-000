@@ -3,10 +3,10 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   elsif array.count > 0 
-   queue = [ ]
+   nothervar = [ ]
    count = 1 
   array.each do |var|
-  queue.push(" #{count}. #{var}")
+  nothervar.push(" #{count}. #{var}")
   count += 1 
   end 
     puts "The line is currently:#{nothervar.join}"
