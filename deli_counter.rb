@@ -10,7 +10,7 @@ def line(array)
   nothervar.push(" #{count}. #{fuck}")
   count += 1 
   end 
-    puts "The line is currently: #{nothervar.join}"
+    puts "The line is currently:#{nothervar.join}"
 end 
 return array 
 end 
