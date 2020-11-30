@@ -1,13 +1,12 @@
 # Write your code heree
 def line(array)
-  lineintro = 
   if array == []
     puts "The line is currently empty."
   elsif array.count > 0 
-   nothervar = [ ]
+   queue = [ ]
    count = 1 
-  array.each do |fuck|
-  nothervar.push(" #{count}. #{fuck}")
+  array.each do |var|
+  queue.push(" #{count}. #{var}")
   count += 1 
   end 
     puts "The line is currently:#{nothervar.join}"
