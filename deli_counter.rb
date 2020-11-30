@@ -1,6 +1,6 @@
 # Write your code heree
 def line(array)
-  lineintro = "The line is currently:"
+  lineintro = 
   if array == []
     puts "The line is currently empty."
   elsif array.count > 0 
@@ -10,7 +10,7 @@ def line(array)
   nothervar.push(" #{count}. #{fuck}")
   count += 1 
   end 
-    puts "#{lineintro}#{nothervar.join}"
+    puts "The line is currently: #{nothervar.join}"
 end 
 return array 
 end 
